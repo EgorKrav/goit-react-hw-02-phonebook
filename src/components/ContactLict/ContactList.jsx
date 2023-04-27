@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import b from './ContactLict.module.css'
 
-const ContactList = ({ contacts, deleteContact, name, number }) => (
+const ContactList = ({ contacts, deleteContact }) => (
   <ul className={b}>
     {contacts.map(({ id, name, number }) => {
       return (
